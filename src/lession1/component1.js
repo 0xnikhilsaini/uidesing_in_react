@@ -17,7 +17,7 @@ export default function component1() {
             }
             alt="content image"
           />
-          <p className={Styles.content}>
+          <p className={Styles.content1}>
             This is css conteent. this is for playing with css. This is good for
             practice. You should learn design patteren
           </p>
