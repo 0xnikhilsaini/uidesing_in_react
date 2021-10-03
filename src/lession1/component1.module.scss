@@ -1,0 +1,41 @@
+.parent {
+}
+.Header {
+  // position of element
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  //size of element
+  height: 100px;
+  width: 1500px;
+
+  //theme of element
+  background-color: rgb(46, 50, 70);
+  color: white;
+
+  // position of child element
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headertitile {
+  font-size: 34px;
+}
+
+.content {
+  margin: 50px;
+
+  align-items: center;
+}
+
+.contenttitle {
+  color: rgb(228, 62, 6);
+}
+
+.contentImage {
+  height: 400px;
+  width: 400px;
+}

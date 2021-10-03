@@ -9,18 +9,19 @@ export default function component1() {
         </div>
         <div className={Styles.content}>
           <p className={Styles.contenttitle}>Section One Title</p>
+
+          <img
+            className={Styles.contentImage}
+            src={
+              'https://thumbs.dreamstime.com/b/manhattan-brooklyn-bridge-black-white-new-york-skyscrapers-city-illuminations-colors-usa-65168874.jpg'
+            }
+            alt="content image"
+          />
+          <p className={Styles.content}>
+            This is css conteent. this is for playing with css. This is good for
+            practice. You should learn design patteren
+          </p>
         </div>
-        <img
-          className={Styles.contentImage}
-          src={
-            'https://thumbs.dreamstime.com/b/manhattan-brooklyn-bridge-black-white-new-york-skyscrapers-city-illuminations-colors-usa-65168874.jpg'
-          }
-          alt="content image"
-        />
-        <p className={Styles.content}>
-          This is css conteent. this is for playing with css. This is good for
-          practice. You should learn design patteren
-        </p>
       </div>
     </>
   );
