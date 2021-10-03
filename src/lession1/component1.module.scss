@@ -9,7 +9,9 @@
 
   //size of element
   height: 100px;
-  width: 1500px;
+  // width: 1500px;
+  // 50% of his parent
+  width: 100%;
 
   //theme of element
   background-color: rgb(46, 50, 70);
@@ -38,4 +40,8 @@
 .contentImage {
   height: 400px;
   width: 400px;
+}
+
+.contentImage {
+  width: 100%;
 }
